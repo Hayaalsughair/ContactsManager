@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManager", "ContactsManager\ContactsManager.csproj", "{23C85362-111F-40FC-BA6B-6DA76E032E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManager", "ContactsManager\ContactsManager.csproj", "{23C85362-111F-40FC-BA6B-6DA76E032E5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManagerTest", "ContactsManagerTest\ContactsManagerTest.csproj", "{0B222226-EFB3-40C0-B80B-01F1DBBC8372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAE90BF4-176E-4502-9417-13C9FE6913A9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{23C85362-111F-40FC-BA6B-6DA76E032E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C85362-111F-40FC-BA6B-6DA76E032E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C85362-111F-40FC-BA6B-6DA76E032E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B222226-EFB3-40C0-B80B-01F1DBBC8372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B222226-EFB3-40C0-B80B-01F1DBBC8372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B222226-EFB3-40C0-B80B-01F1DBBC8372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B222226-EFB3-40C0-B80B-01F1DBBC8372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
